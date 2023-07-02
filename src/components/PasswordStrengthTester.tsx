@@ -16,7 +16,7 @@ const PasswordStrengthTester: React.FC = () => {
             return 'empty'
         }
 
-        if (password.length < 8) {
+        if (password.length < 7) {
             return 'weak'
         }
 
@@ -57,7 +57,7 @@ const PasswordStrengthTester: React.FC = () => {
                     style={{
                         width: '56px',
                         height: '10px',
-                        border: '1px solid rgb(199, 114, 255)',
+                        border: '1px solid rgb(209, 193, 255)',
                         backgroundColor: sectionColor,
                         marginTop: '7px',
                         marginBottom: '4px',
