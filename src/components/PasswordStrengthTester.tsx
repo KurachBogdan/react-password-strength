@@ -57,7 +57,7 @@ const PasswordStrengthTester: React.FC = () => {
                     style={{
                         width: '56px',
                         height: '10px',
-                        border: '1px solid rgb(209, 193, 255)',
+                        border: '1px solid rgb(199, 114, 255)',
                         backgroundColor: sectionColor,
                         marginTop: '7px',
                         marginBottom: '4px',
